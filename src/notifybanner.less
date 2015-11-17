@@ -1,0 +1,51 @@
+.NotifyBanner {
+  position: fixed;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  clear: both;
+  z-index: 999;
+
+  .row {
+    margin: 0px;
+    div {
+      padding: 0px;
+    }
+  }
+
+  .banner-close {
+    color: #000;
+    font-size: 30px;
+  }
+
+  /* Green bar */
+  .green {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(185, 220, 140, 0.85);
+    z-index: 999999;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  /* Yellow Bar */
+  .yellow {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #feee69;
+    z-index: 999999;
+    cursor: pointer;
+  }
+
+  @media screen and (max-height: 26.375em) {
+    .banner-close {
+      font-size: 24px;
+    }
+
+    .green {
+      line-height: 24px;
+    }
+  }
+}

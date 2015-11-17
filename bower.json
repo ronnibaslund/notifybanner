@@ -1,0 +1,32 @@
+{
+  "name": "NotifyBanner",
+  "version": "1.0.0",
+  "description": "Banner notifiyer to use on your e-com or web site",
+  "main": "src/notifybanner.js",
+  "keywords": [
+    "banner",
+    "notify",
+    "e-com",
+    "webpage",
+    "shop"
+  ],
+  "authors": [
+    "Ronni H. Baslund"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ronnibaslund/notifybanner",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ronnibaslund/notifybanner.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "js-cookie": "~2.0.4"
+  }
+}
